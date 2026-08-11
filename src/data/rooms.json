@@ -1,0 +1,54 @@
+[
+  {
+    "id": "indore-01",
+    "title": "Sunny PG for Boys",
+    "city": "Indore",
+    "roomType": "PG",
+    "capacity": 2,
+    "area": "120 sqft",
+    "rent": 6500,
+    "status": "Available",
+    "description": "Clean PG with attached bathroom and Wi-Fi.",
+    "amenities": ["Wi-Fi", "Laundry", "24/7 Water"],
+    "image": "https://images.unsplash.com/photo-1560448072-5f3c43b7b2d8?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "indore-02",
+    "title": "Compact Hostel Room",
+    "city": "Indore",
+    "roomType": "Hostel",
+    "capacity": 1,
+    "area": "100 sqft",
+    "rent": 5500,
+    "status": "Available",
+    "description": "Single sharing with study desk and safe locker.",
+    "amenities": ["Study Table", "Security", "Mess Facility"],
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "bhopal-01",
+    "title": "Comfort PG Room",
+    "city": "Bhopal",
+    "roomType": "PG",
+    "capacity": 3,
+    "area": "140 sqft",
+    "rent": 7200,
+    "status": "Available",
+    "description": "Spacious room with balcony and food service.",
+    "amenities": ["Balcony", "Food", "Housekeeping"],
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "bhopal-02",
+    "title": "Budget Hostel",
+    "city": "Bhopal",
+    "roomType": "Hostel",
+    "capacity": 2,
+    "area": "110 sqft",
+    "rent": 5000,
+    "status": "Available",
+    "description": "Affordable hostel near the university.",
+    "amenities": ["Common Kitchen", "Security", "Wi-Fi"],
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80"
+  }
+]
