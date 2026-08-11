@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 
 import Home from "./pages/Home";
-import Login from "./pages/Login";
+import Login from "./pages/login";
 import Signup from "./pages/Signup";
 import HotelPage from "./pages/HotelPage";
 import RoomDetails from "./pages/RoomDetails";
