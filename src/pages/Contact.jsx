@@ -19,8 +19,14 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const whatsappText = `Hello Staynest,%0A%0AName: ${encodeURIComponent(
+      form.name
+    )}%0AEmail: ${encodeURIComponent(form.email)}%0ASubject: ${encodeURIComponent(
+      form.subject
+    )}%0AMessage: ${encodeURIComponent(form.message)}%0A%0APlease contact me back.`;
+    const whatsappUrl = `https://wa.me/917870408549?text=${whatsappText}`;
 
-    alert("Message submitted successfully!");
+    window.open(whatsappUrl, "_blank");
 
     setForm({
       name: "",
